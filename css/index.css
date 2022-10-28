@@ -1,0 +1,144 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+.set{
+    display: flex;
+    max-width: 100%;
+    width: 1000px;
+    height: 620px;
+    margin-top: 5px;
+    
+}
+
+.left , .right {
+    flex-basis: 50%;
+}
+
+.left {
+    background-color: beige;
+    margin-left: 200px;
+}
+.signin{
+    color: red;
+}
+.right {
+    background-color: beige;
+    background-image:url(https://res.cloudinary.com/oziomadibia/image/upload/q_auto:best/v1665820667/pexels-lisa-fotios-1006293_gnah9w.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.forms {
+    margin-top: 50px;
+    margin-left: 80px;
+    
+}
+
+.ficons{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 170px; 
+}
+
+input[type=text]{
+    margin-bottom: 20px;
+    padding: 8px 10px;
+}
+
+input[type=submit]{
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 8px 10px;
+    
+}
+input[type=email]{
+    padding: 8px 10px;
+}
+
+
+input[type=password]{
+    padding: 8px 10px;
+}
+
+
+
+.btn{
+    margin-top: 20px;
+
+    position: relative;
+}
+
+.passwordeye{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 170px;
+    padding-top: 12px;
+
+
+}
+
+
+.but{
+    position: relative;
+    margin-top: 10px;
+}
+.emailicon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 170px;
+    padding-top: 12px;
+
+
+}
+.buton{
+    margin-top: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
+    background-color: rgb(80, 184, 80);
+    font-family: 'Cairo';
+    font-weight: 700;
+}
+
+.byclick{
+    margin-top: 10px;
+    font-family: 'Cairo';
+    font-weight: 700;
+    
+}
+
+.signin{
+    cursor: pointer;
+}
+
+.eye{
+    cursor: pointer;
+}
+
+.head{
+    padding-left: 30px;
+}
+
+
+@media (max-width:385px){
+
+    .set{
+        height: 620px;
+        color:rgb(129, 47, 206);
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+}
