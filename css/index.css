@@ -7,8 +7,9 @@ margin: 0;
     display: flex;
     max-width: 100%;
     width: 1000px;
-    height: 620px;
+    height: 800px;
     margin-top: 5px;
+    margin-left: 2px;
     
 }
 
@@ -18,7 +19,7 @@ margin: 0;
 
 .left {
     background-color: beige;
-    margin-left: 200px;
+    margin-left: 10px;
 }
 .signin{
     color: red;
@@ -117,6 +118,7 @@ input[type=password]{
     font-family: 'Cairo';
     font-weight: 700;
     
+    
 }
 
 .signin{
@@ -131,14 +133,9 @@ input[type=password]{
     padding-left: 30px;
 }
 
-
-@media (max-width:385px){
-
+@media(min-width:300px){
     .set{
-        height: 620px;
-        color:rgb(129, 47, 206);
-        display: flex;
-        justify-content: flex-start;
-        
+        height: 800px;
     }
+
 }
