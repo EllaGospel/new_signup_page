@@ -20,21 +20,21 @@
                 <h1 class="head">Free Pineapple drink @ 50% patronage monthly signup below</h1>
                 <div class="forms">
                 <div class="ficons" >
-                <label  for="fname">First Name</label>
+                <label  for="fname" class="firstname">First Name</label>
                 <br>
                 <i class="fa-solid fa-user icon"></i>
                 <input placeholder="Enter your first name" type="text" id="fname" name="fname" >
                 <br>
             </div>
             <div class="ficons">
-                <label for="fname">Last Name</label><br>
+                <label for="fname" class="lastname">Last Name</label><br>
                 <i class="fa-solid fa-user icon"></i>
                 <input placeholder="Enter your last name" type="text" id="lname" name="lname" >
                 
                 <br>
             </div>
             <div class="but ">
-                <label for="email">Email</label><br>
+                <label for="email" class="mail">Email</label><br>
                 <i class="fa-sharp fa-solid fa-envelope emailicon"></i>
                 <input placeholder="Enter your email" type="email" id="email" name="email" >
                 
@@ -42,16 +42,16 @@
                 
             </div>
             <div class="btn">
-                <label for="password">Password</label><br>
-                <i class="  passwordeye " id="togglePassword"></i>
-                <input placeholder="Enter your Password" type="password" id="Password" name="Password" >
+                <label for="password" class="passwordlabel">Password</label><br>
+                <i class=" far fa-eye passwordeye " id="togglepassword"></i>
+                <input placeholder="Enter your Password" type="password" id="input_Password" name="Password" >
                 <br>
                 
             </div>
-            <div class="btn">
-                <label for="password">Password</label><br>
-                <i id="togglePassword" class=" far fa-eye passwordeye "></i>
-                <input placeholder=" Your Password again" type="password" id="password" name="password" >
+            <div class="btn1">
+                <label for="password" class="passwordlabel1">Password</label><br>
+                <i id="togglepassword1" class=" far fa-eye passwordeye1 "></i>
+                <input placeholder=" confirm password" type="password" id="input_password1" name="password" >
                 
                 <br>
                
@@ -59,20 +59,25 @@
                 <p class="byclick">By clicking this button, you agree to our private policy and trems of use </p>
                 <button id="click_btn" type="submit" class="buton">signup</button>
 
-               <p class="byclick"> Already have an account,<span  class="signin"> sign in.</span> </p>
-
+               <p class="byclick1"> Already have an account,<span  class="signin"> sign in.</span> </p>
+               
             </div>
-
+            <!-- <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div> -->
+        
             </form>
-
-
-  
         </div>
         
-        <div class="right" > </div>
-
+        <div class="right" > 
+            <h1 id="dateTime" class="clock"> clock</h1>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.544850529609!2d7.062912617443848!3d4.847919600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cdf8cdbcb24b%3A0xf8a3162a02ca0235!2sKosi%20Model%20School!5e0!3m2!1sen!2sng!4v1668183301044!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
          </section>
          <script src="./js/index.js"></script>     
 </body>
 </html>
+

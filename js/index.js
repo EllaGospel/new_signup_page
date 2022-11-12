@@ -1,33 +1,32 @@
+options = {
+    year: 'numeric', month:'long', day:'numeric',
+    hour:'numeric', minute:'numeric', second: 'numeric'
+};
 
-function disappear(){
-    const divForm=document.querySelector('click_btn')
-    divForm.style.display.none
+
+const clock= () => dateTime.innerText=new Intl.DateTimeFormat('en-EN', options).format(new Date())
+clock()
+setInterval(clock, 1000);
+
+
+
+
+
+
+
+
+function toggle(e){
+    const eyefield=document.querySelector('#${e.target.id}').nextElementSibling;
+    const password=eyefield.getAttribute('type') === 'password' ? 'text':'password';
+    eyefield.setAttribute('type',password);
+
 }
 
 
-const formitself= document.getElementById('form')
-formitself.addEventListener("click", disappear)
-
-
-
-
-
-
-
-
-
-function toggle (){
-    const eyefield  = document.querySelector('#Password');
-    const password =eyefield.getAttribute('type') === "password" ? "type" : "password"
-
-    eyefield.setAttibute('type', type) 
-}
-
-
-const togglePassword =document.getElementbyId('togglePassword');
-Password.addEventListener('click', toggle)
-
-this.classList.toggle('fa-eye')
+const togglepassword=document.getElementById('togglePassword');
+const togglepassword1= document.getElementById('togglepassword1');
+togglepassword.addEventListener('click',toggle);
+togglepassword1.addEventListener('click',toggle);
 
 
 
