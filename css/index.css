@@ -17,7 +17,7 @@ margin: 0;
 
 .left {
     background-color: beige;
-    margin-left: 10px;
+    
 }
 .signin{
     color: red;
@@ -48,8 +48,12 @@ margin: 0;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 170px; 
+    left: 190px; 
 }
+.emailicon{
+    margin-left: 20px;
+}
+
 
 input[type=text]{
     margin-bottom: 20px;
@@ -69,7 +73,6 @@ input[type=submit]{
     
 }
 input[type=email]{
-    padding: 8px 10px;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 16px;
