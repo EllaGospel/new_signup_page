@@ -29,10 +29,10 @@ margin: 0;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-    width: 100%;
-    
-   
+    width: 100%; 
 }
+
+
 
 .forms {
     margin-top: 50px;
@@ -129,8 +129,11 @@ input[type=password]{
 .passwordeye{
     position: absolute;
     top: 50%;
-    left: 20%;
+    transform: translateY(-50%);
+    padding-top: 22px;
+    margin-left: 170px;
 }
+
 .btn1{
     margin-top: 20px;
 
@@ -211,11 +214,19 @@ input[type=password]{
 }
 
 @media(min-width: 300px){
-    .map{
+    .map > background-image{
         display: none;
     }
 
    }
+
+   @media(min-width:320px){
+    .right {
+    
+    }
+    
+    }
+   
 
 .left {
 width: 100%;
