@@ -231,8 +231,23 @@ input[type=password]{
     .right {
     
     }
+    .map{
+        display: none;
+    }
     
     }
+
+@media(min-width:375px){
+    .map{
+        height: 200px;
+        width: 400px;
+        position: absolute;
+        bottom: 0;  
+        margin-left: 50px;  
+    }
+    
+}
+
    
 
 .left {
