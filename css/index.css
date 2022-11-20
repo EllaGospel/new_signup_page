@@ -85,3 +85,10 @@ form{
     outline: none;
     cursor: pointer;
 }
+
+.password_btn[data-password-lock="islocked"] > .unlocked{
+    display: none;
+}
+.password_btn[data-password-lock="isunlocked"] > .locked{
+    display: none;
+}
