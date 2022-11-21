@@ -92,3 +92,16 @@ form{
 .password_btn[data-password-lock="isunlocked"] > .locked{
     display: none;
 }
+
+
+.last_name{
+    position: relative;
+
+}
+.nameicon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    
+}
