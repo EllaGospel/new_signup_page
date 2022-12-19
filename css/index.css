@@ -1,7 +1,13 @@
+
 *{
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+}
+
+body{
+ font-family: Archivo;
+  line-height: 1.6;
 }
 
 
@@ -22,20 +28,20 @@ box-sizing: border-box;
 .head{
     padding-left: 30px;
     margin-top: 30px;
-    font-family: 'Lato';
+    font-family:Archivo;
     font-weight: 700;
     font-size: 30px;
-    color: rgb(199, 28, 28);
+      color: #fff;
+  background-color: #202142;
 }
 
 .right {
     background-color: beige;
-    background-image:url(https://res.cloudinary.com/oziomadibia/image/upload/q_auto:best/v1665820667/pexels-lisa-fotios-1006293_gnah9w.jpg);
+   background-image: url(https://res.cloudinary.com/oziomadibia/image/upload/v1671212292/pexels-teona-swift-6912818_v4ukji.jpg);
     background-size: contain;
     background-position: center ;
     background-repeat: no-repeat; 
-    width: 100px;
-    padding-top: 100px;
+    
     
 
 }
@@ -104,4 +110,23 @@ form{
     transform: translateY(-50%);
     right: 10px;
     
+}
+.signup-btn{
+    background-color: green;
+    padding: 10px 66px;
+    color: white;
+    cursor: pointer;
+}
+
+.signin-btn{
+    color: red;
+    cursor: pointer;
+    border: none;
+    font-family: Archivo;
+    font-weight: 400;
+    font-size: 16px;
+}
+.p1{
+    font-family: Archivo;
+
 }
