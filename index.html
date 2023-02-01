@@ -36,7 +36,7 @@
                 <label class="label">
                     <span>Email</span>
                     <div class="last_name">
-                    <input  type="email"/>
+                    <input id="email" type="email"/>
                     <i class="fa-regular fa-envelope nameicon"></i>
                 </div>
                 </label>
@@ -44,7 +44,7 @@
                     <label class="label ">
                     <span>Password</span>
                     <div class="password-input-wrapper">
-                    <input type="password"/>
+                    <input id="pass-word" type="password"/>
                     <button type="button" data-password-lock="isunlocked" class="password_btn">  
                         <i  class="fa-regular fa-eye-slash locked"></i>
                         <i   class="fa-regular fa-eye unlocked"></i>
@@ -55,7 +55,7 @@
                 <label class="label password-label">
                     <span>Confirm Password</span>
                     <div class="password-input-wrapper">
-                    <input type="password"/>
+                    <input id="confirm-password" type="password"/>
                     <button type="button" data-password-lock="isunlocked" class="password_btn">
                         <i class="fa-regular fa-eye-slash locked"></i>
                         <i class="fa-regular fa-eye unlocked"></i>
@@ -63,10 +63,9 @@
             </div>
                 </label>
                 <p class="p1">By clicking this button, you agree to our private policy and trems of use</p> 
-                <button class="signup-btn">Signup</button>
+                <input onclick="fun()" type="submit" value="Signup" class="signup-btn" >
                 <p class="p2">Already have an account 
-                    <button class="signin-btn">Sign in</button></p>
-
+                   <p><a href="signin.html" class="signin-btn">signin</a></p> 
 
 
 

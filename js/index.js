@@ -1,3 +1,25 @@
+
+function login(){
+    document.getElementById('user-name').value='';
+    document.getElementById('confirm-password3').value='';
+}
+
+
+
+
+
+
+function fun(){
+    document.getElementById('firstname').value='';
+    document.getElementById('lastname').value='';
+    document.getElementById('email').value='';
+    document.getElementById('pass-word').value='';
+    document.getElementById('confirm-password').value='';
+}
+
+
+
+
 function togglepassword(e){
     const buttontarget=e.target.parentNode;
     
