@@ -35,15 +35,12 @@ body{
   background-color: #202142;
 }
 
-.right {
+ .right {
     background-color: beige;
-   /* background-image: url(https://res.cloudinary.com/oziomadibia/image/upload/v1671212292/pexels-teona-swift-6912818_v4ukji.jpg); */
-    background-size: contain;
+   /* background-image: url(https://res.cloudinary.com/oziomadibia/image/upload/v1671212292/pexels-teona-swift-6912818_v4ukji.jpg); */ 
+     background-size: contain;
     background-position: center ;
     background-repeat: no-repeat; 
-    
-    
-
 }
 .clock{
     display: flex;
@@ -146,7 +143,5 @@ form{
     margin-left: 40px;
 }
 .cartoon-item{
-    
-    width: 350px;
-    height: 400px;
+    height: 250px;   
 }
