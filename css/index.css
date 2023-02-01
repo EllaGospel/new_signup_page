@@ -37,7 +37,7 @@ body{
 
 .right {
     background-color: beige;
-   background-image: url(https://res.cloudinary.com/oziomadibia/image/upload/v1671212292/pexels-teona-swift-6912818_v4ukji.jpg);
+   /* background-image: url(https://res.cloudinary.com/oziomadibia/image/upload/v1671212292/pexels-teona-swift-6912818_v4ukji.jpg); */
     background-size: contain;
     background-position: center ;
     background-repeat: no-repeat; 
@@ -144,4 +144,9 @@ form{
 .signup-btn2{
     margin-top: 30px;
     margin-left: 40px;
+}
+.cartoon-item{
+    
+    width: 350px;
+    height: 400px;
 }
