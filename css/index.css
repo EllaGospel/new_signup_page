@@ -23,7 +23,7 @@ body{
 
 .left {
     background-color: beige;
- 
+    padding-left:30px;
 }
 .head{
     padding-left: 30px;

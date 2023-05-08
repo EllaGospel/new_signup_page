@@ -1,11 +1,10 @@
 
-function login(){
-    document.getElementById('user-name').value='';
-    document.getElementById('confirm-password3').value='';
-}
 
+ function login(){
+     document.getElementById('user-name').value='';
+     document.getElementById('confirm-password3').value='';
 
-
+    }
 
 
 
